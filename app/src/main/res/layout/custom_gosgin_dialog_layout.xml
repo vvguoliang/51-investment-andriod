@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/fork_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_margin="@dimen/commont_dp20"
+        android:src="@mipmap/ic_fork" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_c20_red"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/commont_dp16"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dosgin_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/commont_dp3"
+                android:text="40"
+                android:textColor="@color/white"
+                android:textSize="@dimen/commont_dp40" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dosogin_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/commont_dp10"
+            android:layout_marginRight="@dimen/commont_dp10"
+            android:gravity="center"
+            android:padding="@dimen/commont_dp10"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/commont_dp18" />
+
+        <TextView
+            android:id="@+id/title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="@dimen/commont_dp10"
+            android:text="@string/textView_signin_gloe1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/commont_dp16"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

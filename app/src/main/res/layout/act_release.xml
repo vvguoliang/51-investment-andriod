@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sp51.spotpass.com.spotpass.ui.view.SoftInputRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent" />
+
+    <include layout="@layout/view_title_textview" />
+
+    <EditText
+        android:id="@+id/release_picture_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_relative"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/commont_dp50"
+        android:layout_marginLeft="@dimen/commont_dp20"
+        android:layout_marginRight="@dimen/commont_dp20"
+        android:layout_marginTop="@dimen/commont_dp20"
+        android:background="@android:color/transparent"
+        android:gravity="left|top"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/commont_dp14" />
+
+    <LinearLayout
+        android:id="@+id/release_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_light_grey"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/release_picture_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/commont_dp10"
+            android:layout_marginRight="@dimen/commont_dp10"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/ic_dict_picture"
+            android:gravity="center"
+            android:padding="@dimen/commont_dp10"
+            android:text="@string/textView_post_picture"
+            android:textColor="@color/black_grey"
+            android:textSize="@dimen/commont_dp16" />
+
+        <TextView
+            android:id="@+id/release_emoticon_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/commont_dp10"
+            android:layout_marginRight="@dimen/commont_dp10"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/ic_dict_emoticon"
+            android:gravity="center"
+            android:padding="@dimen/commont_dp10"
+            android:text="@string/textView_post_emoticon"
+            android:textColor="@color/black_grey"
+            android:textSize="@dimen/commont_dp16" />
+
+        <TextView
+            android:id="@+id/release_varieties_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/commont_dp10"
+            android:layout_marginRight="@dimen/commont_dp10"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/ic_dict_varieties"
+            android:gravity="center"
+            android:padding="@dimen/commont_dp10"
+            android:text="@string/textView_post_varieties"
+            android:textColor="@color/black_grey"
+            android:textSize="@dimen/commont_dp16" />
+
+
+    </LinearLayout>
+
+
+</sp51.spotpass.com.spotpass.ui.view.SoftInputRelativeLayout>

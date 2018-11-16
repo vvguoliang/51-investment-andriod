@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#333333</color>
+    <color name="black1">#666666</color>
+    <color name="black_grey">#999999</color>
+    <color name="color_light_grey">#F1F1F1</color>
+
+    <color name="color_pink_red">#FF6D64</color>
+    <color name="color_pink_red1">#FFF1F0</color>
+
+    <color name="color_text_grey">#727272</color>
+    <color name="color_text_yellow">#eec939</color>
+
+    <color name="common_loan_fra_color">#343434</color>
+    <color name="color_light_green">#028845</color>
+    <color name="color_forest_green">#025f31</color>
+    <color name="color_brown_black">#232733</color>
+    <color name="color_brown_grey">#ABABAB</color>
+    <color name="color_blue">#0caaf4</color>
+    <color name="color_blue1">#1E90FF</color>
+
+
+    <color name="chart_red">#DF3536</color>
+    <color name="chart_green">#35DF7E</color>
+
+    <color name="chart_ma5">#18CCF6</color>
+    <color name="chart_ma10">#FE5EDF</color>
+    <color name="chart_ma20">#E7A520</color>
+    <color name="chart_white">#fff</color>
+
+    <color name="chart_background">#202326</color>
+    <color name="chart_grid_line">#353941</color>
+    <color name="chart_text">#B1B2B6</color>
+    <color name="chart_selector">#c830343C</color>
+    <color name="chart_tab_background">#30343C</color>
+    <color name="chart_tab_indicator">#FF6601</color>
+
+    <color name="common_press">#EBE9E9</color>
+
+    <color name="common_grey_disabled">#aabbc4</color>
+
+    <color name="common_grey_color">#e1e1e1</color>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_light_green" />
+    <corners
+        android:bottomLeftRadius="@dimen/commont_dp100"
+        android:bottomRightRadius="@dimen/commont_dp100"
+        android:topLeftRadius="@dimen/commont_dp100"
+        android:topRightRadius="@dimen/commont_dp100" />
+    <stroke
+        android:width="1dp"
+        android:color="@color/white" />
+</shape>

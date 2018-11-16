@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/integral_mall_liner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/varieties_text1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/commont_dp10"
+        android:layout_weight="1"
+        android:padding="@dimen/commont_dp15"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/commont_dp16" />
+
+
+    <TextView
+        android:id="@+id/varieties_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/commont_dp10"
+        android:padding="@dimen/commont_dp15"
+        android:text="@string/app_name"
+        android:textColor="@color/black_grey"
+        android:textSize="@dimen/commont_dp14" />
+
+
+</LinearLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent" />
+
+    <include layout="@layout/view_title_textview" />
+
+    <LinearLayout
+        android:id="@+id/account_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_relative"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/account_head_portrait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/commont_dp10"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/commont_dp10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/commont_dp10"
+                android:text="@string/textView_head_portrait"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+
+            <sp51.spotpass.com.spotpass.ui.utils.image.CircleImageView
+                android:id="@+id/account_head_portrait_imag"
+                android:layout_width="@dimen/commont_dp40"
+                android:layout_height="@dimen/commont_dp40"
+                android:layout_marginRight="@dimen/commont_dp10"
+                android:src="@color/color_pink_red" />
+
+            <ImageView
+                android:layout_width="@dimen/commont_dp20"
+                android:layout_height="@dimen/commont_dp20"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/commont_dp10"
+                android:src="@mipmap/ic_arrce_righ" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/account_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:layout_weight="1"
+                android:padding="@dimen/commont_dp10"
+                android:text="@string/textView_nickname"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+            <TextView
+                android:id="@+id/account_nickname_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/commont_dp10"
+                android:textColor="@color/black_grey"
+                android:textSize="@dimen/commont_dp14" />
+
+
+            <ImageView
+                android:layout_width="@dimen/commont_dp20"
+                android:layout_height="@dimen/commont_dp20"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/commont_dp20"
+                android:src="@mipmap/ic_arrce_righ" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commont_dp05"
+            android:background="@color/black_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:layout_weight="1"
+                android:padding="@dimen/commont_dp10"
+                android:text="@string/textView_current_account"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+            <TextView
+                android:id="@+id/account_current_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/commont_dp15"
+                android:padding="@dimen/commont_dp10"
+                android:text="@string/app_name"
+                android:textColor="@color/black_grey"
+                android:textSize="@dimen/commont_dp14" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/account_modify_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:layout_weight="1"
+                android:padding="@dimen/commont_dp10"
+                android:text="@string/textView_modify_password"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+            <ImageView
+                android:layout_width="@dimen/commont_dp20"
+                android:layout_height="@dimen/commont_dp20"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/commont_dp20"
+                android:src="@mipmap/ic_arrce_righ" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/account_exit_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/account_linear"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/commont_dp20"
+        android:layout_marginRight="@dimen/commont_dp20"
+        android:layout_marginTop="@dimen/commont_dp50"
+        android:background="@drawable/shape_c2_while_grle"
+        android:text="@string/textView_exit_account"
+        android:textColor="@color/color_pink_red"
+        android:textSize="@dimen/commont_dp16"
+        android:visibility="gone" />
+
+</RelativeLayout>

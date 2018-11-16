@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/my_pop_cancel_button1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commont_dp40"
+        android:layout_marginLeft="@dimen/commont_dp40"
+        android:layout_marginRight="@dimen/commont_dp40"
+        android:layout_marginTop="@dimen/commont_dp10"
+        android:background="@drawable/button_white_selector"
+        android:text="相    机"
+        android:textColor="@color/black"
+        android:textSize="@dimen/commont_dp14" />
+
+    <Button
+        android:id="@+id/my_pop_cancel_button2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commont_dp40"
+        android:layout_marginLeft="@dimen/commont_dp40"
+        android:layout_marginRight="@dimen/commont_dp40"
+        android:layout_marginTop="@dimen/commont_dp10"
+        android:background="@drawable/button_white_selector"
+        android:text="相    册"
+        android:textColor="@color/black"
+        android:textSize="@dimen/commont_dp14" />
+
+    <Button
+        android:id="@+id/my_pop_cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commont_dp40"
+        android:layout_marginLeft="@dimen/commont_dp40"
+        android:layout_marginRight="@dimen/commont_dp40"
+        android:layout_marginTop="@dimen/commont_dp10"
+        android:background="@drawable/button_white_selector"
+        android:text="取    消"
+        android:textColor="@color/black"
+        android:textSize="@dimen/commont_dp14" />
+
+</LinearLayout>

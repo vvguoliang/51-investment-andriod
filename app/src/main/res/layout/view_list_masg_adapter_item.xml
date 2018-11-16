@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/commont_dp20"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/interaction_simple_name_loan1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lines="1"
+            android:singleLine="true"
+            android:text="13717578792"
+            android:textColor="@color/black_grey"
+            android:textSize="@dimen/commont_dp14" />
+
+        <TextView
+            android:id="@+id/interaction_simple_name_loan1_content1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/commont_dp10"
+            android:layout_weight="3"
+            android:ellipsize="end"
+            android:lines="2"
+            android:text="akjhhdandandnan anddjhadbbahd akjdlajjd aj lk卡进度啊大家安德玛骄傲跑啊肯定卡密码的卡；啊肯定的"
+            android:textColor="@color/black_grey"
+            android:textSize="@dimen/commont_dp14" />
+
+    </LinearLayout>
+
+</LinearLayout>

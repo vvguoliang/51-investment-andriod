@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/commont_dp10"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/pop_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_pick_photo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/commont_dp6"
+                android:text="@string/textView_camera"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+
+            <Button
+                android:id="@+id/btn_pick_photo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/commont_dp3"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/commont_dp6"
+                android:text="@string/textView_album"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_photo_bottom_shape"
+                android:padding="@dimen/commont_dp10"
+                android:text="@string/textView_cancel"
+                android:textColor="@color/black_grey"
+                android:textSize="@dimen/commont_dp16" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

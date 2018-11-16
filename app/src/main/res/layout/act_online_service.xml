@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sp51.spotpass.com.spotpass.ui.view.SoftInputRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_grey"
+    android:fitsSystemWindows="true">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent" />
+
+    <include layout="@layout/view_title_textview" />
+
+    <LinearLayout
+        android:id="@+id/title_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_below="@id/title_relative"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_service"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/commont_dp14" />
+
+        <EditText
+            android:id="@+id/online_serview_edittext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/commont_dp15"
+            android:layout_height="@dimen/commont_dp150"
+            android:background="@color/white"
+            android:gravity="top"
+            android:hint="请输入您的问题或加qq3103948177与客服人员沟通"
+            android:padding="@dimen/commont_dp10"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black_grey"
+            android:textSize="@dimen/commont_dp14" />
+
+        <Button
+            android:id="@+id/online_serview_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commont_dp40"
+            android:layout_margin="@dimen/commont_dp20"
+            android:background="@drawable/shape_c5_grle_while"
+            android:text="@string/textView_recharge_submission"
+            android:textColor="@color/white"
+            android:textSize="@dimen/commont_dp16" />
+
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/view_xrefresh_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_linear" />
+
+</sp51.spotpass.com.spotpass.ui.view.SoftInputRelativeLayout>

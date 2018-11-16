@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent" />
+
+    <include layout="@layout/view_title_textview" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_relative"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/commont_dp10"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/voucher_linear1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/commont_dp20"
+                    android:layout_marginRight="@dimen/commont_dp10"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_corner_light_blue"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/commont_dp10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/commont_dp20" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/commont_dp30" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/commont_dp10">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="YUAN"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/commont_dp16" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="优惠券"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/commont_dp16" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/voucher_linear2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/commont_dp10"
+                    android:layout_marginRight="@dimen/commont_dp20"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_corner_light_lavender"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/commont_dp10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/commont_dp20" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="100"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/commont_dp25" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/commont_dp10">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="YUAN"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/commont_dp16" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="优惠券"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/commont_dp16" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/commont_dp10"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/voucher_linear3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/commont_dp20"
+                    android:layout_marginRight="@dimen/commont_dp10"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_corner_deep_blue"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/commont_dp10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/commont_dp20" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="200"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/commont_dp25" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/commont_dp10">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="YUAN"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/commont_dp16" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="优惠券"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/commont_dp16" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/voucher_linear4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/commont_dp10"
+                    android:layout_marginRight="@dimen/commont_dp20"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_c5_grle_while"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/commont_dp10">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/commont_dp20" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="500"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/commont_dp25" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/commont_dp10">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="YUAN"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/commont_dp16" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="优惠券"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/commont_dp16" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp20"
+                android:layout_marginTop="@dimen/commont_dp20"
+                android:text="@string/textView_nstructions"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp20"
+                android:layout_marginRight="@dimen/commont_dp20"
+                android:layout_marginTop="@dimen/commont_dp10"
+                android:text="@string/textView_nstructions1"
+                android:textColor="@color/black_grey"
+                android:textSize="@dimen/commont_dp16" />
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/commont_dp20"
+                android:background="@color/color_pink_red"
+                android:text="@string/textView_nstructions2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/commont_dp16" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

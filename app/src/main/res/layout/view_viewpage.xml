@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sp51.spotpass.com.spotpass.ui.viwepage.MZBannerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/banner"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/commont_dp150"
+    android:background="@android:color/transparent"
+    app:canLoop="true"
+    app:indicatorAlign="center"
+    app:open_mz_mode="false">
+    <!--app:canLoop="true"-->
+    <!--app:indicatorAlign="center"-->
+    <!--app:indicatorPaddingBottom="50dp"-->
+    <!--app:indicatorPaddingLeft="10dp"-->
+    <!--app:middle_page_cover="true"-->
+    <!--app:open_mz_mode="true" -->
+
+</sp51.spotpass.com.spotpass.ui.viwepage.MZBannerView>

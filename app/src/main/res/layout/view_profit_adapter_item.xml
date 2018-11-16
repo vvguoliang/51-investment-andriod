@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profit_list_liner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/commont_dp10"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/commont_dp10"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/detaile_warehouse_view"
+                android:layout_width="@dimen/commont_dp1"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/commont_dp5"
+                android:background="@color/color_light_green" />
+
+            <TextView
+                android:id="@+id/detaile_warehouse_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp15"
+                android:text="@string/textView_be_bearish"
+                android:textColor="@color/color_light_green"
+                android:textSize="@dimen/commont_dp15" />
+
+            <TextView
+                android:id="@+id/detaile_warehouse_text1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp15"
+                android:layout_weight="1"
+                android:text="@string/xi_huanjin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp15" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/commont_dp10"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp25"
+                android:text="@string/textView_building_price"
+                android:textColor="@color/black_grey"
+                android:textSize="@dimen/commont_dp13" />
+
+            <TextView
+                android:id="@+id/detaile_warehouse_building"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:layout_weight="1"
+                android:text="@string/xi1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp13" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:text="@string/textView_building_price_time"
+                android:textColor="@color/black_grey"
+                android:textSize="@dimen/commont_dp13" />
+
+            <TextView
+                android:id="@+id/detaile_warehouse_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:layout_marginRight="@dimen/commont_dp25"
+                android:text="@string/xi1time"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp13" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/commont_dp10"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp25"
+                android:text="@string/textView_exit_price"
+                android:textColor="@color/black_grey"
+                android:textSize="@dimen/commont_dp13" />
+
+            <TextView
+                android:id="@+id/detaile_warehouse_exit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:layout_weight="1"
+                android:text="@string/xi1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp13" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:text="@string/textView_exit_price_time"
+                android:textColor="@color/black_grey"
+                android:textSize="@dimen/commont_dp13" />
+
+            <TextView
+                android:id="@+id/detaile_warehouse_exit_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:layout_marginRight="@dimen/commont_dp25"
+                android:text="@string/xi1time"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp13" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/commont_dp10"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp25"
+                android:text="@string/textView_exit_price_type"
+                android:textColor="@color/black_grey"
+                android:textSize="@dimen/commont_dp13" />
+
+            <TextView
+                android:id="@+id/detaile_warehouse_exit_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:layout_weight="1"
+                android:text="手动平仓"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp13" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

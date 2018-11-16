@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_grey">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent" />
+
+    <include layout="@layout/view_title_textview" />
+
+    <ScrollView
+        android:id="@+id/my_bank_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_relative"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/commont_dp10"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/my_bank_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/my_bank_linear1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/commont_dp100"
+                android:layout_marginLeft="@dimen/commont_dp20"
+                android:layout_marginRight="@dimen/commont_dp20"
+                android:background="@mipmap/ic_bank_by"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/commont_dp50"
+                    android:layout_height="@dimen/commont_dp50"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_bank_ic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/commont_dp10"
+                    android:text="@string/textView_add_bank"
+                    android:textColor="@color/black_grey"
+                    android:textSize="@dimen/commont_dp18" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_bank_linear"
+        android:layout_centerHorizontal="true"
+        android:text="@string/textView_my_bank_more"
+        android:textColor="@color/black_grey"
+        android:textSize="@dimen/commont_dp18" />
+
+</RelativeLayout>

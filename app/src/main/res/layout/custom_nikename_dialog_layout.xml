@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/cancel_image"
+        android:layout_width="wrap_content"
+        android:src="@mipmap/ic_fork"
+        android:layout_gravity="right"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/commont_dp20"
+        android:layout_marginLeft="@dimen/commont_dp20"
+        android:background="@drawable/shape_c2_while_grle"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/commont_dp16"
+            android:visibility="visible" />
+
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:hint="请输入您的昵称"
+            android:lineSpacingMultiplier="1.2"
+            android:lines="1"
+            android:maxLength="20"
+            android:visibility="gone"
+            android:padding="16dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black_grey"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/title_ext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/commont_dp16"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commont_dp1"
+            android:background="@color/black_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/commont_dp10">
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/commont_dp10"
+                android:background="@drawable/shape_c5_grle_while"
+                android:padding="@dimen/commont_dp10"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/commont_dp16" />
+
+            <TextView
+                android:id="@+id/confirm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:gravity="center"
+                android:background="@drawable/shape_c5_red"
+                android:padding="@dimen/commont_dp10"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/commont_dp16" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

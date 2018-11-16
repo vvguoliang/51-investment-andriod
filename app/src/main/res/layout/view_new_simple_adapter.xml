@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/transaction_linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/commont_dp20"
+        android:layout_marginRight="@dimen/commont_dp20"
+        android:layout_marginTop="@dimen/commont_dp20"
+        android:background="@drawable/shape_c2_while_grle"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/new_text_context"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/commont_dp10"
+            android:text="@string/app_name"
+            android:textColor="@color/black_grey"
+            android:textSize="@dimen/commont_dp14" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/new_text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="@dimen/commont_dp20"
+        android:padding="@dimen/commont_dp5"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/commont_dp12" />
+
+
+</LinearLayout>
+

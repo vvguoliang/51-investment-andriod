@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profit_list_liner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <sp51.spotpass.com.spotpass.ui.utils.image.CircleImageView
+            android:id="@+id/interaction_simple_details_image"
+            android:layout_width="@dimen/commont_dp35"
+            android:layout_height="@dimen/commont_dp35"
+            android:layout_margin="@dimen/commont_dp15"
+            android:src="@mipmap/ic_integral_mall_back" />
+
+        <TextView
+            android:id="@+id/interaction_simple_details_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/commont_dp16" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/interaction_simple_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="@dimen/commont_dp50"
+        android:layout_marginRight="@dimen/commont_dp20"
+        android:text="akjhhdandandnan andaj lk卡进度啊aldjajd jad;l a大家安德玛骄傲跑啊肯定卡密码的卡；啊肯定的"
+        android:textColor="@color/black_grey"
+        android:textSize="@dimen/commont_dp14" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/commont_dp55"
+        android:layout_marginRight="@dimen/commont_dp20"
+        android:orientation="horizontal"
+        android:padding="@dimen/commont_dp10">
+
+        <TextView
+            android:id="@+id/interaction_simple_details_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="7分钟前"
+            android:textColor="@color/black_grey"
+            android:textSize="@dimen/commont_dp14" />
+
+
+        <ImageView
+            android:id="@+id/interaction_simple_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/commont_dp10"
+            android:src="@mipmap/ic_give_thumbs_up"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/interaction_simple_details_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="@dimen/commont_dp10"
+            android:paddingRight="@dimen/commont_dp10"
+            android:paddingTop="@dimen/commont_dp10"
+            android:text="7分钟前"
+            android:textColor="@color/black_grey"
+            android:textSize="@dimen/commont_dp14"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/transaction1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/commont_dp10"
+        android:background="@drawable/shape_c2_blue_grle"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/commont_dp10">
+
+        <TextView
+            android:id="@+id/transaction_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/commont_dp12" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp12" />
+
+            <TextView
+                android:id="@+id/transaction_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/commont_dp2"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/transaction_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="波动1个点赚2元"
+            android:textColor="@color/black_grey"
+            android:textSize="@dimen/commont_dp12" />
+
+
+    </LinearLayout>
+</LinearLayout>

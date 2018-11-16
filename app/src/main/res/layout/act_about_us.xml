@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_grey"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent" />
+
+    <include layout="@layout/view_title_textview" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_relative"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/commont_dp90"
+            android:layout_height="@dimen/commont_dp90"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/commont_dp40"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/edition_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/commont_dp10"
+            android:padding="@dimen/commont_dp10"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/commont_dp20" />
+
+        <TextView
+            android:id="@+id/edition_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/commont_dp20" />
+
+        <LinearLayout
+            android:id="@+id/my_risk_introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/commont_dp30"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/commont_dp15">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/textView_risk_introduction"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_arrce_righ" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/commont_dp10"
+            android:visibility="gone"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/commont_dp15">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="@string/textView_risk_introduction"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_arrce_righ" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

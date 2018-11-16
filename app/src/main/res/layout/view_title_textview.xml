@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_relative"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/commont_dp70"
+    android:background="@color/color_pink_red">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/commont_dp30">
+
+        <ImageView
+            android:id="@+id/title_right_arrow_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/commont_dp10"
+            android:layout_marginLeft="@dimen/commont_dp10"
+            android:src="@mipmap/ic_right_arrow_white"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/title_button_fork_white"
+            android:layout_width="@dimen/commont_dp50"
+            android:layout_height="@dimen/commont_dp50"
+            android:layout_toRightOf="@id/title_right_arrow_white"
+            android:padding="@dimen/commont_dp10"
+            android:src="@mipmap/ic_fork"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="12"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/commont_dp18"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/title_imageview_customer_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/commont_dp20"
+            android:padding="@dimen/commont_dp5"
+            android:src="@mipmap/ic_customer_service"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/title_imageview_historical_bill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/commont_dp20"
+            android:padding="@dimen/commont_dp5"
+            android:src="@mipmap/ic_historical_bill"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/title_integral_rule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/commont_dp20"
+            android:text="@string/textView_integral_rule"
+            android:textColor="@color/white"
+            android:textSize="@dimen/commont_dp16"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/title_question_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/commont_dp20"
+            android:src="@mipmap/ic_question_mark"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/title_post_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/title_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_selector_post"
+                android:paddingBottom="@dimen/commont_dp5"
+                android:paddingLeft="@dimen/commont_dp20"
+                android:paddingRight="@dimen/commont_dp20"
+                android:paddingTop="@dimen/commont_dp5"
+                android:text="@string/textView_circle"
+                android:textColor="@color/color_pink_red"
+                android:textSize="@dimen/commont_dp16" />
+
+
+            <TextView
+                android:id="@+id/title_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_selector_video"
+                android:paddingBottom="@dimen/commont_dp5"
+                android:paddingLeft="@dimen/commont_dp20"
+                android:paddingRight="@dimen/commont_dp20"
+                android:paddingTop="@dimen/commont_dp5"
+                android:text="@string/textView_video"
+                android:textColor="@color/white"
+                android:textSize="@dimen/commont_dp16" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

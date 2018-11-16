@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="MZBannerView">
+        <attr name="open_mz_mode" format="boolean" />
+        <attr name="canLoop" format="boolean" />
+        <attr name="indicatorPaddingLeft" format="dimension" />
+        <attr name="indicatorPaddingRight" format="dimension" />
+        <attr name="indicatorPaddingTop" format="dimension" />
+        <attr name="indicatorPaddingBottom" format="dimension" />
+        <attr name="indicatorAlign">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="middle_page_cover" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="XRefreshView">
+        <attr name="isHeightMatchParent" format="boolean" tools:ignore="ResourceName" />
+        <attr name="isWidthMatchParent" format="boolean" tools:ignore="ResourceName" />
+        <attr name="autoRefresh" format="boolean" tools:ignore="ResourceName" />
+        <attr name="autoLoadMore" format="boolean" tools:ignore="ResourceName" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SnappingStepper">
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="value" format="integer" />
+        <attr name="step" format="integer" />
+        <attr name="text" format="string" />
+        <attr name="mode" format="enum">
+            <enum name="auto" value="0" />
+            <enum name="custom" value="1" />
+        </attr>
+        <attr name="stepper_background" format="color|reference" />
+        <attr name="stepper_buttonBackground" format="color|reference" />
+        <attr name="stepper_contentBackground" format="color|reference" />
+        <attr name="stepper_contentTextColor" format="color" />
+        <attr name="stepper_contentTextSize" format="float" />
+        <attr name="stepper_leftButtonBackground" format="color|reference" />
+        <attr name="stepper_rightButtonBackground" format="color|reference" />
+        <attr name="stepper_leftButtonResources" format="color|reference" />
+        <attr name="stepper_rightButtonResources" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MarqueeViewStyle">
+        <attr name="mvInterval" format="integer|reference" />
+        <attr name="mvAnimDuration" format="integer|reference" />
+        <attr name="mvTextSize" format="dimension|reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TouchableTabLayout">
+        <attr name="tabIndicatorColor" format="color" />
+        <attr name="tabIndicatorHeight" format="dimension" />
+        <attr name="tabContentStart" format="dimension" />
+        <attr name="tabBackground" format="reference" />
+        <attr name="tabMode">
+            <enum name="scrollable" value="0" />
+            <enum name="fixed" value="1" />
+        </attr>
+        <attr name="tabGravity">
+            <enum name="fill" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+        <attr name="tabMinWidth" format="dimension" />
+        <attr name="tabMaxWidth" format="dimension" />
+        <attr name="tabTextAppearance" format="reference" />
+        <attr name="tabTextColor" format="color" />
+        <attr name="tabSelectedTextColor" format="color" />
+        <attr name="tabPaddingStart" format="dimension" />
+        <attr name="tabPaddingTop" format="dimension" />
+        <attr name="tabPaddingEnd" format="dimension" />
+        <attr name="tabPaddingBottom" format="dimension" />
+        <attr name="tabPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TouchableTabLayoutTextAppearance">
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+
+    <declare-styleable name="KChartView">
+        <!--公共的-->
+        <attr name="kc_text_size" format="dimension" />
+        <attr name="kc_text_color" format="color" />
+        <attr name="kc_line_width" format="dimension" />
+        <attr name="kc_background_color" format="color" />
+        <attr name="kc_selected_line_color" format="color" />
+        <attr name="kc_selected_line_width" format="dimension" />
+        <attr name="kc_grid_line_width" format="dimension" />
+        <attr name="kc_grid_line_color" format="color" />
+        <attr name="kc_point_width" format="dimension" />
+        <!--macd-->
+        <attr name="kc_macd_width" format="dimension" />
+        <attr name="kc_dif_color" format="color" />
+        <attr name="kc_dea_color" format="color" />
+        <attr name="kc_macd_color" format="color" />
+        <!--kdj-->
+        <attr name="kc_k_color" format="color" />
+        <attr name="kc_d_color" format="color" />
+        <attr name="kc_j_color" format="color" />
+        <!--rsi-->
+        <attr name="kc_rsi1_color" format="color" />
+        <attr name="kc_rsi2_color" format="color" />
+        <attr name="kc_ris3_color" format="color" />
+        <!--boll-->
+        <attr name="kc_up_color" format="color" />
+        <attr name="kc_mb_color" format="color" />
+        <attr name="kc_dn_color" format="color" />
+        <!--main-->
+        <attr name="kc_ma5_color" format="color" />
+        <attr name="kc_ma10_color" format="color" />
+        <attr name="kc_ma20_color" format="color" />
+        <attr name="kc_candle_width" format="dimension" />
+        <attr name="kc_candle_line_width" format="dimension" />
+        <attr name="kc_selector_background_color" format="color" />
+        <attr name="kc_selector_text_size" format="dimension" />
+        <attr name="kc_candle_solid" format="boolean" />
+        <!--tab-->
+        <attr name="kc_tab_background_color" format="color" />
+        <attr name="kc_tab_text_color" format="color" />
+        <attr name="kc_tab_indicator_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CountDownProgress">
+        <!-- 圆实心的颜色 -->
+        <attr name="circSolidColor" format="color" />
+        <!-- 圆边框的颜色 -->
+        <attr name="circFrameColor" format="color" />
+        <!-- 进度条的颜色 -->
+        <attr name="progressColor" format="color" />
+        <!-- 文字的颜色 -->
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MinuteChartView">
+        <!-- 网格-->
+        <attr name="GridPaintColole" format="color" />
+        <!-- 背景 -->
+        <attr name="BackgroundColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="UltraViewPager">
+        <attr name="upv_autoscroll" format="integer" />
+        <attr name="upv_infiniteloop" format="boolean" />
+        <attr name="upv_ratio" format="float" />
+        <attr name="upv_scrollmode" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="upv_disablescroll" format="enum">
+            <enum name="none" value="0" />
+            <enum name="backward" value="1" />
+            <enum name="forward" value="2" />
+        </attr>
+        <attr name="upv_multiscreen" format="float" />
+        <attr name="upv_automeasure" format="boolean" />
+        <attr name="upv_itemratio" format="float" />
+    </declare-styleable>
+
+
+</resources>

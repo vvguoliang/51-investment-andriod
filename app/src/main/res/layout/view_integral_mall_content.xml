@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/commont_dp20"
+        android:background="@mipmap/ic_integral_mall_back">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/commont_dp20"
+            android:text="@string/textView_my_points"
+            android:textColor="@color/white"
+            android:textSize="@dimen/commont_dp16" />
+
+        <RelativeLayout
+            android:id="@+id/look_details_relativce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/commont_dp20"
+            android:background="@drawable/shape_lkeft_angle_while">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/commont_dp5"
+                android:paddingLeft="@dimen/commont_dp20"
+                android:paddingRight="@dimen/commont_dp20"
+                android:paddingTop="@dimen/commont_dp5"
+                android:text="@string/textView_look_details"
+                android:textColor="@color/white"
+                android:textSize="@dimen/commont_dp12" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/integral_mall_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/commont_dp20" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/integral_mall_num"
+            android:layout_marginLeft="@dimen/commont_dp80"
+            android:layout_marginRight="@dimen/commont_dp80"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/commont_dp80"
+            android:background="@mipmap/ic_integral_grade"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/integral_mall_grade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/commont_dp3"
+                android:padding="@dimen/commont_dp2"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp12" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commont_dp10"
+        android:background="@color/color_light_grey" />
+
+    <LinearLayout
+        android:id="@+id/integral_mall_exchange_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/commont_dp20"
+            android:layout_weight="1"
+            android:text="@string/textView_look_details1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/commont_dp14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/commont_dp20"
+            android:text="@string/textView_exchange_history"
+            android:textColor="@color/color_brown_grey"
+            android:textSize="@dimen/commont_dp14" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

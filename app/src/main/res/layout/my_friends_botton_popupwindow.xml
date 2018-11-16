@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/tab_group"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/commont_dp100"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/commont_dp35"
+            android:paddingRight="@dimen/commont_dp35"
+            android:paddingTop="@dimen/commont_dp2">
+
+            <RadioButton
+                android:id="@+id/tab_rb_1"
+                style="@style/share_rb_style"
+                android:drawableTop="@mipmap/ic_weichat"
+                android:text="@string/share_weichat" />
+
+            <RadioButton
+                android:id="@+id/tab_rb_2"
+                style="@style/share_rb_style"
+                android:drawableTop="@mipmap/ic_weichatfriend"
+                android:text="@string/share_weichatfriend" />
+
+            <RadioButton
+                android:id="@+id/tab_rb_3"
+                style="@style/share_rb_style"
+                android:drawableTop="@mipmap/ic_qqroom"
+                android:text="@string/share_qqroom" />
+
+            <RadioButton
+                android:id="@+id/tab_rb_4"
+                style="@style/share_rb_style"
+                android:drawableTop="@mipmap/ic_qq"
+                android:text="@string/share_qq" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/commont_dp10"
+        android:src="@color/common_grey_color" />
+
+    <Button
+        android:id="@+id/my_pop_cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commont_dp40"
+        android:layout_margin="@dimen/commont_dp40"
+        android:background="@drawable/button_white_selector"
+        android:text="取消"
+        android:textColor="@color/black"
+        android:textSize="@dimen/commont_dp14" />
+
+</LinearLayout>

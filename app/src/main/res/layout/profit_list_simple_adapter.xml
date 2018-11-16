@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/profit_list_liner"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="@dimen/commont_dp10">
+
+    <TextView
+        android:id="@+id/profit_list_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="@dimen/commont_dp10"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/commont_dp16" />
+
+
+    <sp51.spotpass.com.spotpass.ui.utils.image.CircleImageView
+        android:id="@+id/profit_list_image"
+        android:layout_width="@dimen/commont_dp40"
+        android:layout_height="@dimen/commont_dp40"
+        android:layout_marginLeft="@dimen/commont_dp10"
+        android:src="@mipmap/ic_banner" />
+
+    <TextView
+        android:id="@+id/profit_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/commont_dp10"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/commont_dp16" />
+
+    <TextView
+        android:id="@+id/profit_list_context"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/commont_dp10"
+        android:layout_weight="1"
+        android:gravity="center|right"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/commont_dp12" />
+
+</LinearLayout>

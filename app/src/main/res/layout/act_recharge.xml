@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_grey"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent" />
+
+    <include layout="@layout/view_title_textview" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_relative"
+        android:orientation="vertical"
+        tools:ignore="UnknownIdInLayout">
+
+        <sp51.spotpass.com.spotpass.ui.view.CustomeGridView
+            android:id="@+id/recharge_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:columnWidth="@dimen/commont_dp90"
+            android:gravity="center"
+            android:horizontalSpacing="5dp"
+            android:numColumns="3"
+            android:padding="@dimen/commont_dp10"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/commont_dp10"
+            android:visibility="visible"
+            tools:ignore="UselessLeaf" />
+
+        <LinearLayout
+            android:id="@+id/recharge_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/recharge_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/commont_dp10"
+                android:layout_weight="1"
+                android:text="@string/textView_recharge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/commont_dp20"
+                android:src="@mipmap/ic_arrce_righ" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/commont_dp10"
+                android:paddingLeft="@dimen/commont_dp15"
+                android:paddingTop="@dimen/commont_dp10"
+                android:text="@string/textView_alipa_wechat"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+            <LinearLayout
+                android:id="@+id/recharge_linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/commont_dp15"
+                    android:src="@mipmap/ic_union_pay" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/commont_dp5"
+                        android:text="@string/textView_union_pay"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/commont_dp16" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/commont_dp5"
+                        android:text="@string/textView_security_payment"
+                        android:textColor="@color/black_grey"
+                        android:textSize="@dimen/commont_dp14" />
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/recharge_checkbox1"
+                    android:layout_width="@dimen/commont_dp25"
+                    android:layout_height="@dimen/commont_dp25"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/commont_dp20"
+                    android:background="@mipmap/ic_check_mark"
+                    android:button="@android:color/transparent"
+                    android:padding="@dimen/commont_dp10" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/recharge_linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/commont_dp15"
+                    android:src="@mipmap/ic_union_pay" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/commont_dp5"
+                        android:text="@string/textView_huanxun_pay"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/commont_dp16" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/commont_dp5"
+                        android:text="@string/textView_security_payment"
+                        android:textColor="@color/black_grey"
+                        android:textSize="@dimen/commont_dp14" />
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/recharge_checkbox3"
+                    android:layout_width="@dimen/commont_dp25"
+                    android:layout_height="@dimen/commont_dp25"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/commont_dp20"
+                    android:background="@mipmap/ic_check_mark_no"
+                    android:button="@android:color/transparent"
+                    android:padding="@dimen/commont_dp10" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/recharge_linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/commont_dp15"
+                    android:src="@mipmap/ic_alipay" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/commont_dp5"
+                        android:text="@string/textView_alipay"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/commont_dp16" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/commont_dp5"
+                        android:text="@string/textView_security_payment"
+                        android:textColor="@color/black_grey"
+                        android:textSize="@dimen/commont_dp14" />
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/recharge_checkbox2"
+                    android:layout_width="@dimen/commont_dp25"
+                    android:layout_height="@dimen/commont_dp25"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/commont_dp20"
+                    android:background="@mipmap/ic_check_mark_no"
+                    android:button="@android:color/transparent"
+                    android:padding="@dimen/commont_dp10" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/recharge_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_pink_red"
+        android:padding="@dimen/commont_dp15"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/commont_dp20" />
+
+
+</RelativeLayout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sp51.spotpass.com.spotpass.ui.view.SoftInputRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent" />
+
+    <include layout="@layout/view_title_textview" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_relative"
+        android:layout_marginLeft="@dimen/commont_dp10"
+        android:padding="@dimen/commont_dp10"
+        android:text="@string/textView_oneself_bank"
+        android:textColor="@color/black_grey"
+        android:textSize="@dimen/commont_dp16" />
+
+
+    <LinearLayout
+        android:id="@+id/addbank_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/commont_dp10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/textView_bank_cardholder_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+            <EditText
+                android:id="@+id/addbank_edittext_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp30"
+                android:background="@android:color/transparent"
+                android:hint="@string/textView_bank_cardholder1"
+                android:lines="1"
+                android:padding="@dimen/commont_dp10"
+                android:paddingLeft="@dimen/commont_dp10"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black_grey"
+                android:textSize="@dimen/commont_dp16" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/commont_dp10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/textView_bank_card_identity"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+            <EditText
+                android:id="@+id/addbank_edittext_No"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp30"
+                android:background="@android:color/transparent"
+                android:digits="1234567890xX"
+                android:hint="@string/textView_bank_card_identity1"
+                android:inputType="number"
+                android:lines="1"
+                android:padding="@dimen/commont_dp10"
+                android:paddingLeft="@dimen/commont_dp10"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black_grey"
+                android:textSize="@dimen/commont_dp16" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/commont_dp10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/textView_bank_card_number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+            <EditText
+                android:id="@+id/addbank_edittext_bank"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp30"
+                android:layout_weight="3.5"
+                android:background="@android:color/transparent"
+                android:hint="@string/textView_bank_card"
+                android:inputType="number|phone"
+                android:lines="1"
+                android:padding="@dimen/commont_dp10"
+                android:paddingLeft="@dimen/commont_dp10"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black_grey"
+                android:textSize="@dimen/commont_dp16" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bank_list_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/commont_dp10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/textView_input_bank_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+
+            <TextView
+                android:id="@+id/bank_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/commont_dp5"
+                android:layout_weight="2.5"
+                android:hint="@string/textView_input_bank_name"
+                android:padding="@dimen/commont_dp10"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black_grey"
+                android:textSize="@dimen/commont_dp16" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/commont_dp10"
+                android:src="@mipmap/ic_arrce_righ" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commont_dp05"
+            android:background="@color/black_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/commont_dp10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/textView_input_bank_phone"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+            <EditText
+                android:id="@+id/addbank_edittext_phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp30"
+                android:layout_weight="3.5"
+                android:background="@android:color/transparent"
+                android:hint="@string/textView_input_account_phone"
+                android:inputType="number|phone"
+                android:lines="1"
+                android:maxLength="11"
+                android:padding="@dimen/commont_dp10"
+                android:paddingLeft="@dimen/commont_dp10"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black_grey"
+                android:textSize="@dimen/commont_dp16" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addbank_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addbank_linear"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/commont_dp20"
+        android:layout_marginRight="@dimen/commont_dp20"
+        android:layout_marginTop="@dimen/commont_dp20"
+        android:background="@drawable/shape_c5_red"
+        android:text="@string/textView_bank_cardholder_bind"
+        android:textColor="@color/white"
+        android:textSize="@dimen/commont_dp16" />
+
+
+</sp51.spotpass.com.spotpass.ui.view.SoftInputRelativeLayout>

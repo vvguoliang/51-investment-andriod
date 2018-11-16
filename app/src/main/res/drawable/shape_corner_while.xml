@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- White Top color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_light_grey" />
+            <corners android:radius="@dimen/commont_dp7" />
+        </shape>
+    </item>
+    <!-- Bottom 2dp Shadow -->
+    <item
+        android:bottom="@dimen/commont_dp5"
+        android:top="@dimen/commont_dp2">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <corners android:radius="@dimen/commont_dp7" />
+        </shape>
+    </item>
+
+</layer-list>

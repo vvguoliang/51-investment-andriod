@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_grey">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent" />
+
+    <include layout="@layout/view_title_textview" />
+
+    <LinearLayout
+        android:id="@+id/putforward_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_relative"
+        android:layout_marginTop="@dimen/commont_dp10"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/commont_dp10">
+
+
+        <LinearLayout
+            android:id="@+id/recharge_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/recharge_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/commont_dp10"
+                android:layout_weight="1"
+                android:text="@string/textView_recharge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/commont_dp20"
+                android:src="@mipmap/ic_arrce_righ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/forward_bank_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <sp51.spotpass.com.spotpass.ui.utils.image.CircleImageView
+                android:id="@+id/forward_bank_image"
+                android:layout_width="@dimen/commont_dp50"
+                android:layout_height="@dimen/commont_dp50"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:src="@mipmap/ic_my_online_service"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/commont_dp10"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/forward_bank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:padding="@dimen/commont_dp5"
+                    android:text="@string/app_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/commont_dp16" />
+
+                <TextView
+                    android:id="@+id/forward_bank_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:padding="@dimen/commont_dp5"
+                    android:text="@string/app_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/commont_dp14" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/commont_dp20"
+                android:layout_height="@dimen/commont_dp20"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/commont_dp20"
+                android:src="@mipmap/ic_arrce_righ" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commont_dp1"
+            android:background="@color/color_light_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/commont_dp20"
+            android:layout_marginTop="@dimen/commont_dp10"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textView_forward_money"
+                    android:textColor="@color/color_text_yellow"
+                    android:textSize="@dimen/commont_dp14" />
+
+                <EditText
+                    android:id="@+id/forward_bank_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/commont_dp15"
+                    android:layout_marginTop="@dimen/commont_dp15"
+                    android:background="@android:color/transparent"
+                    android:digits="0987654321."
+                    android:hint="@string/textView_inviting"
+                    android:inputType="phone|number"
+                    android:lines="1"
+                    android:padding="@dimen/commont_dp10"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black_grey"
+                    android:textSize="@dimen/commont_dp18" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/forward_bank_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/commont_dp20"
+                android:text="@string/textView_all_forward"
+                android:textColor="@color/color_pink_red"
+                android:textSize="@dimen/commont_dp16" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commont_dp1"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/fut_Forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/commont_dp10"
+            android:padding="@dimen/commont_dp10"
+            android:text="@string/app_name"
+            android:textColor="@color/black_grey"
+            android:textSize="@dimen/commont_dp16" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/forward_bank_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/putforward_linear"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/commont_dp20"
+        android:background="@drawable/shape_c5_red"
+        android:text="@string/textView_forward"
+        android:textColor="@color/white"
+        android:textSize="@dimen/commont_dp14" />
+
+</RelativeLayout>

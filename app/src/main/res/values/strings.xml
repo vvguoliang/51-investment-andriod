@@ -1,0 +1,540 @@
+<resources>
+    <string name="app_name">51投资</string>
+    <string name="app_name1">点击进入</string>
+    <string name="navigation_home">首页</string>
+    <string name="navigation_interaction">互动</string>
+    <string name="navigation_transaction">交易</string>
+    <string name="navigation_documentary">跟单</string>
+    <string name="navigation_my">我的</string>
+    <string name="textView_profit_list">盈利榜</string>
+    <string name="textView_profit_details">盈利详情</string>
+    <string name="textView_integral_mall">金币商城</string>
+    <string name="textView_grab_a_red_envelope">抢红包</string>
+    <string name="textView_be_bearish">看空</string>
+    <string name="textView_be_zhang">看涨</string>
+    <string name="textView_integral_rule">金币规则</string>
+    <string name="textView_rule">规则</string>
+    <string name="textView_look_details">获取记录</string>
+    <string name="textView_look_details1">金币兑换</string>
+    <string name="textView_redeem_now">立即兑换</string>
+    <string name="textView_exchange_history">兑换历史</string>
+    <string name="textView_my_points">我的金币</string>
+    <string name="textView_expert_interpretation">专家解读</string>
+    <string name="textView_expert_interpretation1">以上内容策略仅供参考&#044;不构成买卖依据&#033;</string>
+    <string name="textView_expert_interpretation2">评论一下&#044;你的看法</string>
+    <string name="textView_time">06&#058;00&#045;次日04&#058;00</string>
+    <string name="textView_savings_deposit">储蓄卡</string>
+    <string name="textView_trading_opportunities">交易机会</string>
+
+    <string name="textView_my_course_collection">课程收藏</string>
+    <string name="textView_my_online_service">在线客服</string>
+    <string name="textView_my_service">客服</string>
+    <string name="textView_my_account_management">账号管理</string>
+
+    <string name="textView_inviting_friends">邀请好友</string>
+    <string name="textView_inviting">请输入金额</string>
+    <string name="textView_my_new">消息中心</string>
+    <string name="textView_my_about_us">关于我们</string>
+    <string name="textView_my_recharge">充值</string>
+    <string name="textView_risk_introduction">风险介绍</string>
+    <string name="textView_gold_entry">入金</string>
+    <string name="textView_out_goldy">出金</string>
+    <string name="textView_select_coupons">选择优惠券</string>
+
+    <string name="textView_alipa_wechat">支付方式</string>
+    <string name="textView_account">支付账号</string>
+    <string name="textView_amount_money">支付金额</string>
+
+    <string name="textView_alipay">支付宝</string>
+    <string name="textView_union_pay">银联支付</string>
+    <string name="textView_huanxun_pay">环迅支付</string>
+    <string name="textView_yunju_pay">云聚支付</string>
+    <string name="textView_security_payment">安全支付</string>
+    <string name="textView_wechat">微信支付</string>
+    <string name="textView_wechat1">微信</string>
+
+    <string name="textView_continue_recharge">继续充值</string>
+    <string name="textView_return_home">返回首页</string>
+    <string name="textView_all_forward">全部提现</string>
+    <string name="textView_forward">提现</string>
+    <string name="textView_my_bank_more">最多绑定20张还款银行卡</string>
+    <string name="textView_forward_money">提现金额&#160;&#160;&#040;元&#041;</string>
+    <string name="textView_my_bank">我的银行卡</string>
+
+    <string name="textView_bank_card_details">银行卡详情</string>
+    <string name="textView_bank_cardholder_name">持卡人姓名</string>
+    <string name="textView_bank_cardholder">持卡人</string>
+    <string name="textView_bank_card_number">卡号</string>
+    <string name="textView_bank_card">请输入卡号</string>
+    <string name="textView_bank_card_identity">身份证件号</string>
+    <string name="textView_bank_card_identity1">请输入身份证件号</string>
+    <string name="textView_bank_cardholder1">请输入持卡人姓名</string>
+    <string name="textView_bank_cardholder_phone">银行卡预留手机号</string>
+    <string name="textView_bank_cardholder_details">如果更换了银行预留手机号&#044;请先解除绑定&#044;并在收银台付款时重新绑定</string>
+    <string name="textView_bank_cardholder_unbind">解除绑定</string>
+    <string name="textView_bank_cardholder_bind">绑定银行卡</string>
+
+    <string name="textView_profit_e">盈利额</string>
+    <string name="textView_profit_l">盈利率</string>
+    <string name="textView_profit_reward">奖励</string>
+    <string name="textView_preservation">保存</string>
+
+    <string name="textView_profit_error1">允许成交价与挂单价上下</string>
+    <string name="textView_profit_error">点误差</string>
+    <string name="textView_profit_price">挂单价</string>
+    <string name="textView_profit_please_price">请输入挂单价格</string>
+    <string name="textView_oneself_bank">请输入本人的银行卡</string>
+
+    <string name="textView_details_warehouse">平仓详情</string>
+    <string name="textView_building_price">建仓价&#058;</string>
+    <string name="textView_exit_price">平仓价&#058;</string>
+    <string name="textView_exit_price_type">平仓类型&#058;</string>
+    <string name="textView_exit_price_time">平仓时间&#058;</string>
+    <string name="textView_building_price_time">建仓时间&#058;</string>
+    <string name="textView_service_charge">手续费&#058;</string>
+    <string name="textView_exit_price_service_charge">持仓过夜手续费&#058;</string>
+    <string name="textView_profit_loss">盈亏&#058;</string>
+
+    <string name="textView_add_bank">添加银行卡</string>
+    <string name="textView_bank_list">银行卡列表</string>
+    <string name="textView_input_account_phone">请输入手机号</string>
+    <string name="textView_input_bank_phone">手机号</string>
+    <string name="textView_input_bank_name">银行卡名称</string>
+    <string name="textView_input_bank_name1">请输入银行卡名称</string>
+    <string name="textView_input_account_password_new">请输入新密码</string>
+    <string name="textView_input_account_again_password_new">再次输入新密码</string>
+    <string name="textView_input_account_password">请输入密码</string>
+    <string name="textView_input_account_code">请输入验证码</string>
+    <string name="textView_input_password_two">两次密码不一致&#044;请从新输入</string>
+    <string name="textView_input_account_code1">点击获取</string>
+    <string name="textView_sign_in">登录</string>
+    <string name="textView_register">注册</string>
+    <string name="textView_register_sign_up">登录&#047;注册</string>
+    <string name="textView_my_assets">我的资产(元)</string>
+    <string name="textView_my_assets_total">我的总资产</string>
+    <string name="textView_my_holding_assets">持仓资产(元)：</string>
+    <string name="textView_my_available_balance">可用余额(元)：</string>
+    <string name="textView_my_available_capital">可用资金</string>
+    <string name="textView_my_exchange">中金所</string>
+    <string name="textView_account1">账户</string>
+    <string name="textView_record_eexchange">兑换记录</string>
+    <string name="textView_record_old">金币记录</string>
+
+    <string name="textView_billing_record">帐单记录</string>
+    <string name="textView_school">在线学堂</string>
+    <string name="textView_school_new">新手学堂</string>
+    <string name="textView_head_portrait">头像</string>
+    <string name="textView_nickname">昵称</string>
+    <string name="textView_current_account">当前账号</string>
+    <string name="textView_modify_password">修改密码</string>
+    <string name="textView_exit_account">退出账号</string>
+    <string name="textView_accout_management">账号管理</string>
+
+    <string name="xiaomai">也小麦</string>
+    <string name="xi_huanjin">黄金10千克（20元/手）1手</string>
+    <string name="xi_analyst">分析师</string>
+    <string name="xi1">11000元</string>
+    <string name="xi1time">04&#045;19&#160;&#160;14&#058;&#160;20&#058;&#160;24</string>
+    <string name="textView_meta_hand">元&#047;手</string>
+    <string name="textView_no_data">暂无数据</string>
+    <string name="textView_direction">方向</string>
+    <string name="textView_hang_single_price">挂单价</string>
+    <string name="textView_latest_price">最新价</string>
+    <string name="textView_buy_more">买涨</string>
+    <string name="textView_buy_fall">买跌</string>
+    <string name="textView_buy">买</string>
+    <string name="textView_hand">手</string>
+    <string name="textView_buy_register">挂单</string>
+
+    <string name="textView_post">发帖</string>
+    <string name="textView_post_release">发布</string>
+    <string name="textView_circle">圈子</string>
+    <string name="textView_video">视频</string>
+    <string name="textView_details">详情</string>
+    <string name="textView_exper_interpretation">专家解读</string>
+    <string name="textView_post_picture">图片</string>
+    <string name="textView_post_emoticon">表情</string>
+    <string name="textView_post_varieties">品种</string>
+    <string name="textView_market_variety">行情品种</string>
+    <string name="textView_cancel">取消</string>
+    <string name="textView_market">行情</string>
+    <string name="textView_comment">评论</string>
+    <string name="textView_give_thumbs_up">点赞</string>
+    <string name="textView_camera">相机</string>
+    <string name="textView_album">相册</string>
+
+
+    <string name="textView_phtonCode">请输入正确手机号</string>
+    <string name="textView_phton">请输入手机号</string>
+    <string name="textView_code">请输入验证发</string>
+    <string name="textView_password">请输入密码</string>
+
+    <string name="textView_agree">点击注册表示您已经阅读并同意《用户协议》</string>
+    <string name="textView_isclaimer">和《免责声明》</string>
+    <string name="textView_forget_password">忘记密码&#063;</string>
+
+    <string name="textView_wait_for">下单成功&#033;&#160;等待发货</string>
+    <string name="textView_recharge_success">充值成功</string>
+    <string name="textView_recharge_cash_coupon">代金券</string>
+    <string name="textView_recharge_choice">选择</string>
+    <string name="textView_recharge">选择银行</string>
+    <string name="textView_recharge_stop_loss">止损&#058;</string>
+    <string name="textView_recharge_target_profit">止盈&#058;</string>
+    <string name="textView_recharge_complete">完成</string>
+    <string name="textView_recharge_submission">提交</string>
+
+
+    <string name="textView_designates_number">输入数字</string>
+    <string name="textView_designates_type">类型</string>
+    <string name="textView_designates_building_price">建仓</string>
+    <string name="textView_designates_increase_point">每增长1个点&#044;能收益1元</string>
+    <string name="textView_designates_compensation">1000元以上可用包赔险</string>
+    <string name="textView_designates_balance">余额</string>
+    <string name="textView_designates_unlimited">不限</string>
+    <string name="textView_designates_default_opening">建仓默认开启持仓过夜&#044;建仓后可以手动设置</string>
+    <string name="textView_designates_total">总计</string>
+    <string name="textView_designates_place_order">下单</string>
+
+    <string name="textView_number_hands">请选择规格与手数</string>
+
+    <string name="textView_hang_price">请输入挂单价(元)</string>
+    <string name="textView_tishi">提示:实际成交价可能与挂单价出入</string>
+
+    <string name="textView_designates_no_up">暂时未开启&#044;请进行期待</string>
+    <string name="textView_please_again">亲爱的用户&#044;您的信息失效正在为您做处理&#044;请稍后</string>
+    <string name="textView_time1">时间</string>
+    <string name="textView_eexchang_operation">操作</string>
+    <string name="textView_eexchang_umber">数量</string>
+    <string name="textView_eexchang_source">来源</string>
+    <string name="textView_holding_list">持仓列表</string>
+    <string name="textView_holding">持仓历史</string>
+    <string name="textView_holding_details">持仓详情</string>
+    <string name="textView_holding_float_name">浮动盈损名称</string>
+    <string name="textView_holding_float_umber">持仓数量</string>
+    <string name="textView_holding_float_uilding">建仓费用</string>
+    <string name="textView_holding_flat_out">平仓抛出</string>
+    <string name="textView_purchase">买&#160;&#160;&#160;&#160;&#160;&#160;&#160;入</string>
+    <string name="textView_expected_cost">预计花费</string>
+    <string name="textView_holding_time">挂单时间</string>
+    <string name="textView_trigger_time">触发时间</string>
+    <string name="textView_holding_state">状&#160;&#160;&#160;&#160;&#160;&#160;&#160;态</string>
+    <string name="textView_holding_ancel">撤&#160;&#160;单</string>
+
+    <string name="textView_nstructions">体验券使用说明:</string>
+    <string name="textView_vocucher">体验券</string>
+    <string name="textView_nstructions2">确定</string>
+    <string name="textView_nstructions1">1.可订售商品的每个规格每天最多可使用 20 张体验券，且同种商品同种规格需要解约后方可适用下
+一张体验券\n2.不同商品的同种规则及同种商品的不同规格均可同时使用体验券持仓\n3.使用体验券进行订售
+的单子，不可持仓过夜，闭市结算时系统会自动解约,并扣除隔夜费\n4.且使用体验券无手续费及隔夜费分成，
+客户盈利状态下，客户的实际盈利=解约盈利-手续费-隔夜费，客户亏损则亏损、手续费及隔夜费皆为 0.</string>
+    <string name="textView_personal_center">个人中心</string>
+    <string name="textView_signin_gloe">签到赚取金币</string>
+    <string name="textView_signin_gloe2">金币</string>
+    <string name="textView_signin_gloe1">《签到规则》</string>
+    <string name="textView_holding_prompt">重要提示</string>
+    <string name="textView_holding_on_list">正在挂单</string>
+    <string name="textView_holding_historical">历史挂单</string>
+    <string name="textView_setview_wenti">常见问题</string>
+    <string name="textView_service">以下没有您想要的答案&#044;您可以留言&#044;我们会稍后回复</string>
+    <string name="textView_holding_prompt_context">1&#046;商城建仓无手续费&#044;平仓时收取手续费&#059;\n2&#046;商城止盈止损不能重新设置&#059;\n3&#046;可以持仓跨交易日&#044;每日24点计收一次延期费&#044;平仓时收取&#046;</string>
+
+
+    <string name="xrefreshview_header_hint_normal">下拉刷新</string>
+    <string name="xrefreshview_header_hint_ready">松开刷新数据</string>
+    <string name="xrefreshview_header_hint_refreshing">正在刷新&#046;&#046;&#046;</string>
+    <string name="xrefreshview_header_hint_loading">正在加载&#046;&#046;&#046;</string>
+    <string name="xrefreshview_header_hint_loaded">加载完成</string>
+    <string name="xrefreshview_header_hint_loaded_fail">加载失败</string>
+    <string name="xrefreshview_header_last_time">上次更新时间：</string>
+    <string name="xrefreshview_footer_hint_normal">加载完成</string>
+    <string name="xrefreshview_footer_hint_fail">加载失败，请重试</string>
+    <string name="xrefreshview_footer_hint_complete">暂无记录</string>
+    <string name="xrefreshview_footer_hint_click">点击加载更多</string>
+    <string name="xrefreshview_footer_hint_release">松开加载更多</string>
+    <string name="xrefreshview_footer_hint_ready">松开载入更多</string>
+    <string name="xrefreshview_never_refresh">从未刷新</string>
+    <string name="xrefreshview_refresh_justnow">刚刚刷新</string>
+    <string name="xrefreshview_refresh_minutes_ago">%1s分钟之前刷新</string>
+    <string name="xrefreshview_refresh_hours_ago">%1s小时之前刷新</string>
+    <string name="xrefreshview_refresh_days_ago">%1s天之前刷新</string>
+
+    <string name="share_weichat">微信</string>
+    <string name="share_weichatfriend">朋友圈</string>
+    <string name="share_qqroom">QQ空间</string>
+    <string name="share_qq">QQ</string>
+
+
+    <string name="title_dialog">友情提示</string>
+    <string name="message_permission_failed">尚未获取SD卡读取权限</string>
+    <string name="message_permission_rationale">获取SD卡读取权限</string>
+    <string name="btn_dialog_yes_permission">去设置</string>
+    <string name="btn_dialog_no_permission">取消</string>
+    <string name="message_setting_back">用户从设置回来了</string>
+    <string name="message_post_succeed">获取SD卡权限成功</string>
+    <string name="message_post_failed">获取SD卡权限失败</string>
+
+
+</resources>
+
+
+    <!-- &#064; 对应 @
+             &#058; 对应 :
+             &#160; 对应 空格
+             &#032; 对应 空格
+             &#033; 对应 !
+             &#034; 对应  "（xml中需要在前面加入）
+             &#035; 对应  #
+             &#036; 对应  $
+             &#037; 对应  %
+             &#038; 对应  &
+             &#039; 对应  ´
+             &#040; 对应  (
+             &#041; 对应  )
+             &#042; 对应  *
+             &#043; 对应  +
+             &#044; 对应  ,
+             &#045; 对应   -
+             &#046; 对应  .
+             &#047; 对应  /
+             &#058; 对应  :
+             &#059; 对应  ;
+             &#060; 对应  <
+             &#061; 对应  =
+             &#062; 对应 -->
+
+    <!--  &#063; 对应  ?
+      &#064; 对应  @
+      &#091; 对应  [
+      &#092; 对应  - -
+      &#093; 对应  ]
+      &#094; 对应  ^
+      &#095; 对应  _
+      &#096; 对应  `
+      &#123; 对应  {
+      &#124; 对应  |
+      &#125; 对应  }
+      &#126; 对应  ~
+      &#160; 对应  （这边是空格,在xml首字符中不会被忽略）
+      &#161; 对应  ¡
+      &#162; 对应  ¢
+      &#163; 对应  £
+      &#164; 对应  ¤
+      &#165; 对应  ¥
+      &#166; 对应  ¦
+      &#167; 对应  §
+      &#168; 对应  ¨
+      &#169; 对应  ©
+      &#170; 对应  ª
+      &#171; 对应  «
+      &#172; 对应  ¬
+      &#173; 对应  ­
+      &#174; 对应  ®
+      &#175; 对应  ¯
+      &#176; 对应  °
+      &#177; 对应  ±
+      &#178; 对应  ²
+      &#179; 对应  ³
+      &#180; 对应  ´
+      &#181; 对应  µ
+      &#182; 对应  ¶
+      &#183; 对应  •
+      &#184; 对应  ¸
+      &#185; 对应  ¹
+      &#186; 对应  º
+      &#187; 对应  »
+      &#188; 对应  ¼
+      &#189; 对应  ½
+      &#190; 对应  ¾
+      &#191; 对应  ¿
+      &#192; 对应  À
+      &#193; 对应  Á
+      &#194; 对应  Â
+      &#195; 对应  Ã
+      &#196; 对应  Ä
+      &#197; 对应  Å
+      &#198; 对应  Æ
+      &#199; 对应  Ç
+      &#200; 对应  È
+      &#201; 对应  É
+      &#202; 对应  Ê
+      &#203; 对应  Ë
+      &#204; 对应  Ì
+      &#205; 对应  Í
+      &#206; 对应  Î
+      &#207; 对应  Ï
+      &#208; 对应  Ð
+      &#209; 对应  Ñ
+      &#210; 对应  Ò
+      &#211; 对应  Ó
+      &#212; 对应  Ô
+      &#213; 对应  Õ
+      &#214; 对应  Ö
+      &#215; 对应  ×
+      &#216; 对应  Ø
+      &#217; 对应  Ù
+      &#218; 对应  Ú
+      &#219; 对应  Û
+      &#220; 对应  Ü
+      &#221; 对应  Ý
+      &#222; 对应  Þ
+      &#223; 对应  ß
+      &#224; 对应  à
+      &#225; 对应  á
+      &#226; 对应  â
+      &#227; 对应  ã
+      &#228; 对应  ä
+      &#229; 对应  å
+      &#230; 对应  æ
+      &#231; 对应  ç
+      &#232; 对应  è
+      &#233; 对应  é
+      &#234; 对应  ê
+      &#235; 对应  ë
+      &#236; 对应  ì
+      &#237; 对应  í
+      &#238; 对应  î
+      &#239; 对应  ï
+      &#240; 对应  ð
+      &#241; 对应  ñ
+      &#242; 对应  ò
+      &#243; 对应  ó
+      &#244; 对应  ô
+      &#245; 对应  õ
+      &#246; 对应  ö
+      &#247; 对应  ÷
+      &#248; 对应  ø
+      &#249; 对应  ù
+      &#250; 对应  ú
+      &#251; 对应  û
+      &#252; 对应  ü
+      &#253; 对应  ý
+      &#254; 对应  þ
+      &#255; 对应  ÿ
+      &#256; 对应  Ā
+      &#257; 对应  ā
+      &#258; 对应  Ă
+      &#259; 对应  ă
+      &#260; 对应  Ą
+      &#261; 对应  ą
+      &#262; 对应  Ć
+      &#263; 对应  ć
+      &#264; 对应  Ĉ
+      &#265; 对应  ĉ
+      &#266; 对应  Ċ
+      &#267; 对应  ċ
+      &#268; 对应  Č
+      &#269; 对应  č
+      &#270; 对应  Ď
+      &#271; 对应  ď
+      &#272; 对应  Đ
+      &#273; 对应  đ
+      &#274; 对应  Ē
+      &#275; 对应  ē
+      &#276; 对应  Ĕ
+      &#277; 对应  ĕ
+      &#278; 对应  Ė
+      &#279; 对应  ė
+      &#280; 对应  Ę
+      &#281; 对应  ę
+      &#282; 对应  Ě
+      &#283; 对应  ě
+      &#284; 对应  Ĝ
+      &#285; 对应  ĝ
+      &#286; 对应  Ğ
+      &#287; 对应  ğ
+      &#288; 对应  Ġ
+      &#289; 对应  ġ
+      &#290; 对应  Ģ
+      &#291; 对应  ģ
+      &#292; 对应  Ĥ
+      &#293; 对应  ĥ
+      &#294; 对应  Ħ
+      &#295; 对应  ħ
+      &#296; 对应  Ĩ
+      &#297; 对应  ĩ
+      &#298; 对应  Ī
+      &#299; 对应  ī
+      &#300; 对应  Ĭ
+      &#301; 对应  ĭ
+      &#302; 对应  Į
+      &#303; 对应  į
+      &#304; 对应  İ
+      &#305; 对应  ı
+      &#306; 对应  Ĳ
+      &#307; 对应  ĳ
+      &#308; 对应  Ĵ
+      &#309; 对应  ĵ
+      &#310; 对应  Ķ
+      &#311; 对应  ķ
+      &#312; 对应  ĸ
+      &#313; 对应  Ĺ
+      &#314; 对应  ĺ
+      &#315; 对应  Ļ
+      &#316; 对应  ļ
+      &#317; 对应  Ľ
+      &#318; 对应  ľ
+      &#319; 对应  Ŀ
+      &#320; 对应  ŀ
+      &#321; 对应  Ł
+      &#322; 对应  ł
+      &#323; 对应  Ń
+      &#324; 对应  ń
+      &#325; 对应  Ņ
+      &#326; 对应  ņ
+      &#327; 对应  Ň
+      &#328; 对应  ň
+      &#329; 对应  ŉ
+      &#330; 对应  Ŋ
+      &#331; 对应  ŋ
+      &#332; 对应  Ō
+      &#333; 对应  ō
+      &#334; 对应  Ŏ
+      &#335; 对应  ŏ
+      &#336; 对应  Ő
+      &#337; 对应  ő
+      &#338; 对应  Œ
+      &#339; 对应  œ
+      &#340; 对应  Ŕ
+      &#341; 对应  ŕ
+      &#342; 对应  Ŗ
+      &#343; 对应  ŗ
+      &#344; 对应  Ř
+      &#345; 对应  ř
+      &#346; 对应  Ś
+      &#347; 对应  ś
+      &#348; 对应  Ŝ
+      &#349; 对应  ŝ
+      &#350; 对应  Ş
+      &#351; 对应  ş
+      &#352; 对应  Š
+      &#353; 对应  š
+      &#354; 对应  Ţ
+      &#355; 对应  ţ
+      &#356; 对应  Ť
+      &#357; 对应  ť
+      &#358; 对应  Ŧ
+      &#359; 对应  ŧ
+      &#360; 对应  Ũ
+      &#361; 对应  ũ
+      &#362; 对应  Ū
+      &#363; 对应  ū
+      &#364; 对应  Ŭ
+      &#365; 对应  ŭ
+      &#366; 对应  Ů
+      &#367; 对应  ů
+      &#368; 对应  Ű
+      &#369; 对应  ű
+      &#370; 对应  Ų
+      &#371; 对应  ų
+      &#372; 对应  Ŵ
+      &#373; 对应  ŵ
+      &#374; 对应  Ŷ
+      &#375; 对应  ŷ
+      &#376; 对应  Ÿ
+      &#377; 对应  Ź
+      &#378; 对应  ź
+      &#379; 对应  Ż
+      &#380; 对应  ż
+      &#381; 对应  Ž
+      &#382; 对应  ž
+      -->

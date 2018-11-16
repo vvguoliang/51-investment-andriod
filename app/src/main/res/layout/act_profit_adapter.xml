@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commont_dp250"
+        android:background="@color/color_brown_black"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/profit_text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/commont_dp10"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/commont_dp16" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/commont_dp10">
+
+            <ImageView
+                android:layout_width="@dimen/commont_dp100"
+                android:layout_height="@dimen/commont_dp120"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_back_thefirst_one" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="-25dp"
+                android:layout_marginTop="@dimen/commont_dp10"
+                android:layout_toRightOf="@id/profit_image"
+                android:src="@mipmap/ic_one_an_crown" />
+
+            <sp51.spotpass.com.spotpass.ui.utils.image.CircleImageView
+                android:id="@+id/profit_image"
+                android:layout_width="@dimen/commont_dp65"
+                android:layout_height="@dimen/commont_dp65"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/commont_dp20"
+                android:src="@mipmap/ic_banner"
+                app:civ_border_color="@color/color_text_grey"
+                app:civ_border_width="1dp" />
+
+
+            <TextView
+                android:id="@+id/profit_relative_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profit_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/commont_dp5"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp16" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/profit_e_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/commont_dp10"
+                    android:text="@string/app_name"
+                    android:textColor="@color/color_pink_red"
+                    android:textSize="@dimen/commont_dp18" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textView_profit_e"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/commont_dp16" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/profit_l_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/commont_dp10"
+                    android:text="@string/app_name"
+                    android:textColor="@color/color_pink_red"
+                    android:textSize="@dimen/commont_dp18" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textView_profit_l"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/commont_dp16" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/profit_reward_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/commont_dp10"
+                    android:text="@string/app_name"
+                    android:textColor="@color/color_pink_red"
+                    android:textSize="@dimen/commont_dp18" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textView_profit_reward"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/commont_dp16" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <sp51.spotpass.com.spotpass.ui.utils.image.CircleImageView
+            android:id="@+id/interaction_details_image"
+            android:layout_width="@dimen/commont_dp50"
+            android:layout_height="@dimen/commont_dp50"
+            android:layout_margin="@dimen/commont_dp20"
+            android:src="@mipmap/ic_integral_mall_back" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/interaction_details_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/interaction_details_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/commont_dp18" />
+
+            <TextView
+                android:id="@+id/interaction_details_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/commont_dp5"
+                android:text="@string/app_name"
+                android:textColor="@color/black_grey"
+                android:textSize="@dimen/commont_dp14" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/interaction_simple_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/commont_dp20"
+        android:layout_marginRight="@dimen/commont_dp20"
+        android:lineSpacingExtra="3dp"
+        android:lineSpacingMultiplier="1.5"
+        android:text="akjhhdandandnan andaj lk卡进度啊aldjajd jad;l a大家安德玛骄傲跑啊肯定卡密码的卡；啊肯定的"
+        android:textColor="@color/black_grey"
+        android:textSize="@dimen/commont_dp14" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/interaction_simple_details_image1"
+            android:layout_width="@dimen/commont_dp120"
+            android:layout_height="@dimen/commont_dp75"
+            android:layout_marginLeft="@dimen/commont_dp20"
+            android:src="@mipmap/ic_integral_mall_back" />
+
+        <ImageView
+            android:id="@+id/interaction_simple_details_image2"
+            android:layout_width="@dimen/commont_dp120"
+            android:layout_height="@dimen/commont_dp75"
+            android:layout_marginRight="@dimen/commont_dp10"
+            android:layout_marginLeft="@dimen/commont_dp10"
+            android:src="@mipmap/ic_integral_mall_back" />
+
+        <ImageView
+            android:id="@+id/interaction_simple_details_image3"
+            android:layout_width="@dimen/commont_dp120"
+            android:layout_height="@dimen/commont_dp75"
+            android:layout_marginRight="@dimen/commont_dp20"
+            android:src="@mipmap/ic_integral_mall_back" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/interaction_simple_details_interpretation1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/commont_dp20"
+        android:layout_marginRight="@dimen/commont_dp20"
+        android:padding="@dimen/commont_dp5"
+        android:text="@string/textView_expert_interpretation1"
+        android:textColor="@color/color_pink_red"
+        android:textSize="@dimen/commont_dp14" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="@dimen/commont_dp20"
+        android:gravity="center|right"
+        android:orientation="horizontal">
+
+        <sp51.spotpass.com.spotpass.ui.utils.image.CircleImageView
+            android:id="@+id/interaction_details_image1"
+            android:layout_width="@dimen/commont_dp25"
+            android:layout_height="@dimen/commont_dp25"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/commont_dp5"
+            android:src="@mipmap/ic_integral_mall_back" />
+
+        <sp51.spotpass.com.spotpass.ui.utils.image.CircleImageView
+            android:id="@+id/interaction_details_image2"
+            android:layout_width="@dimen/commont_dp25"
+            android:layout_height="@dimen/commont_dp25"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/commont_dp5"
+            android:src="@mipmap/ic_integral_mall_back" />
+
+        <sp51.spotpass.com.spotpass.ui.utils.image.CircleImageView
+            android:id="@+id/interaction_details_image3"
+            android:layout_width="@dimen/commont_dp25"
+            android:layout_height="@dimen/commont_dp25"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/commont_dp5"
+            android:src="@mipmap/ic_integral_mall_back" />
+
+
+        <ImageView
+            android:id="@+id/interaction_simple_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/commont_dp10"
+            android:src="@mipmap/ic_give_thumbs_up" />
+
+        <TextView
+            android:id="@+id/interaction_simple_details_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="（2）"
+            android:textColor="@color/black_grey"
+            android:textSize="@dimen/commont_dp14" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/commont_dp10"
+        android:background="@color/color_light_grey" />
+
+    <TextView
+        android:id="@+id/interaction_simple_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_margin="@dimen/commont_dp20"
+        android:text="@string/textView_comment"
+        android:textColor="@color/black_grey"
+        android:textSize="@dimen/commont_dp16" />
+
+
+</LinearLayout>
